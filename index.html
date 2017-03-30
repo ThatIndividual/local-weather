@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      Weather App
+      ===========
+      30 March 2017
+      Gabriel Ionescu
+
+      Weather data provided by wunderground.com.
+      Icons provided by erikflowers/weather-icons.
+      jQuery provided by jQuery Team, hosted by cloudflare.
+      Stylesheet made with SASS.
+    -->
+    <title>Local Weather</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="css/weather-icons.css" rel="stylesheet">
+    <link href="css/weather-icons-wind.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="calendar">
+        <div id="weekday">Wednesday</div>
+        <div id="day">30</div>
+      </div>
+      <div id="icon">
+        <i class="wi wi-wu-clear"></i>
+      </div>
+      <div id="temp">
+        <p><span id="low">5</span><span class="measure">°C</span> — <span id="high">18</span><span class="measure">°C</span></p>
+      </div>
+      <button id="change"><p>Change to <span id="altMeasure">°F</span></p></button>
+    </div>
+  </body>
+</html>

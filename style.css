@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Ultra");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400");
+body {
+  background-color: #16193B; }
+
+#app {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -135px; }
+
+#calendar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.5);
+  float: left; }
+  #calendar #weekday {
+    background-color: #3547BC;
+    height: 50px;
+    color: #7FB2F0;
+    font-size: 23px;
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    line-height: 50px;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px; }
+  #calendar #day {
+    background-color: #4E7AC7;
+    color: #16193B;
+    font-size: 100px;
+    font-family: "Ultra";
+    text-align: center;
+    line-height: 140px;
+    height: 150px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; }
+
+#temp {
+  width: 300px;
+  text-align: center;
+  float: right;
+  color: #4E7AC7;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-size: 50px;
+  text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.5);
+  line-height: 0px; }
+
+#icon {
+  width: 300px;
+  text-align: center;
+  float: right;
+  color: #4E7AC7;
+  font-size: 100px;
+  text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 15px; }
+
+#change {
+  display: block;
+  clear: both;
+  margin: 0px auto;
+  height: 40px;
+  border: none;
+  background-color: #3547BC;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+  box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.5); }
+  #change p {
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    color: #7FB2F0;
+    font-size: 25px;
+    margin: 0px; }
+
+/*# sourceMappingURL=style.css.map */
